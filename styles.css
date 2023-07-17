@@ -63,14 +63,26 @@ h4{
     overflow: hidden;
     /*color:green; */
 }
-.grey-chat-bubble {
-    background-image: url('photos/iphgreychat.jpg');
-    background-color: black;
-    opacity: 100%;
-   width: 390px;
-   height: 200px;
-   margin-top: 10rem;
+.home-page-asking-text {
+    color:rgb(255, 254, 254);
    overflow: hidden;
+   font-family: Roboto;
+   font-size: 1.8rem;
+   margin:auto;
+   padding-top:50%;
+   padding-left: 27%;
+   padding-right: 4%;
+}
+.grey-chat-bubble {
+    padding:0px;
+    margin:0px;
+    background-image: url('photos/iphgreychatbubble.png');
+    height:350px;
+    width: 550px;
+}
+#music-question {
+    padding-right: 10%;
+    font-size: 1.6rem;
 }
 #coding{
 padding-top: 5px;
